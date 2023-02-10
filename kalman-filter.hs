@@ -28,4 +28,4 @@ main = do
       z = fromList [2, 2]
       (x, P) = kalmanFilter x0 P0 u z
   putStrLn $ "Estimated state: " ++ show x
-  putStrLn $ "Estimated covariance: " ++ show P
+  putStrLn $ "Estimated covariance: " ++ show P 
